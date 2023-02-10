@@ -1,0 +1,117 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.logoAlura{
+    position: absolute;
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    font-size: 32px;
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color:0A3871; }
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    width: 400px;
+    height: 550px;
+    font-size: 24px;
+    background: white;
+    background-image: url(imagens/boneco.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    border: none;
+    border-radius: 32px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: fixed;
+}
+.mensagem:focus {
+    outline: none;
+}
+.mensagem::placeholder {color: #343A40;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 380px;
+    line-height: 28.8px;
+    }
+
+.botoes {
+    display: flex;
+}
+
+.btn-desencriptar {
+    font-size: 16px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    font-size: 16px;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    font-size: 16px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 140px;
+    margin-top: 480px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    position: relative;
+    margin-top: 48px;
+}
+
+.ponto {
+    position:absolute;
+}
+
+h6 {
+    font-size: 12px;
+    color: #495057;
+    margin-left: 25px;
+}
